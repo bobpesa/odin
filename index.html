@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <header>
+        <h1>My book Library</h1>
+        <button id="addBtn">Add Book</button>
+    </header>
+    <div class="bookContainer">
+        <section class="popUp">
+            <div class="bookForm">
+                <label for="title">
+                    <legend>Title</legend>
+                    <input type="text" id="title" name="title" placeholder="Enter book title">
+                </label>
+                <label for="title">
+                    <legend>Pages</legend>
+                    <input type="number" id="pages" name="title" placeholder="Number of pages">
+                </label>
+                <label for="title">
+                    <legend>Author</legend>
+                    <input type="text" id="writerAuthor" name="author" placeholder="Enter book title">
+                </label>
+                <button id="saveBtn">Save</button>
+            </div>
+        </section>
+        <section class="booksCard">
+            <div class="card">
+                <img src="#" alt="-blank" id="bookImage">
+                <div class="bookDetails">
+                    <div class="details">
+                        <h1 id="bookTitle">Lorem.</h1>
+                        <p id="noPages">240</p>
+                        <p id="author">Lorem, ipsum.</p>
+                    </div>
+                    <div class="delete">
+                        <button id="read">Want to read</button>
+                        <button id="deleteBtn">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="#" alt="-blank" id="bookImage">
+                <div class="bookDetails">
+                    <div class="details">
+                        <h1 class="bookTitle" id="bookTitle">Lorem.</h1>
+                        <p class="noPages" id="noPages">240</p>
+                        <p class="author" id="author">Lorem, ipsum.</p>
+                    </div>
+                    <div class="deletew">
+                        <button class="read" id="read">Want to read</button>
+                        <button class="deleteBtn" id="deleteBtn">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="#" alt="-blank" id="bookImage">
+                <div class="bookDetails">
+                    <div class="details">
+                        <h1 id="bookTitle">Lorem.</h1>
+                        <p id="noPages">240</p>
+                        <p id="author">Lorem, ipsum.</p>
+                    </div>
+                    <div class="delete">
+                        <button id="read">Want to read</button>
+                        <button id="deleteBtn">-</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

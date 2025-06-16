@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: honeydew;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.bookContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.bookForm {
+    display: none;
+}
+
+
+.bookForm.active {
+    position: fixed;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 80%;
+    background-color: white;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+
+}
+
+.popUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.booksCard {
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+}
+
+img {
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.bookDetails {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px;
+}

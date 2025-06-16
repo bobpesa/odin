@@ -96,8 +96,19 @@ header h1 {
 
 .checkboxField {
   display: flex;
+  flex-direction: row !important;
   align-items: center;
   gap: 10px;
+  white-space: nowrap;
+}
+
+.checkboxField input[type="checkbox"] {
+  margin: 0;
+  transform: scale(1.2);
+}
+
+.checkboxField span {
+  margin: 0;
 }
 
 .checkboxField input[type="checkbox"] {
@@ -115,6 +126,13 @@ header h1 {
   border-radius: 4px;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.formBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 /* .buttons {
